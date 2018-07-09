@@ -15,8 +15,8 @@ export class MyApp {
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, private authService: AuthService) {
 
     firebase.initializeApp({
-      apiKey: "AIzaSyAAxPVu3Psxf0DJP5nqwz71s4EZootQuSk",
-      authDomain: "p5zavecz.firebaseapp.com"
+         apiKey: "AIzaSyB-1jThSnSxH5NxXUqP0Qx0iZ4jMMcbNBY",
+         authDomain: "p5tat-3a255.firebaseapp.com",
     })
 
     platform.ready().then(() => {
